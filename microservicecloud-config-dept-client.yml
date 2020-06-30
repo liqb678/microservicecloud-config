@@ -52,7 +52,7 @@ eureka:
     #register-with-eureka: false
     #fetch-registry: false
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
 #      defaultZone: http://localhost:7001/eureka
   instance:
     #服务实例名称修改
@@ -80,7 +80,7 @@ spring:
   application:
     name: microsercicecloud-config-dept-client  #应用名称
   datasource:
-    url: jdbc:mysql://localhost:3306/study01?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
+    url: jdbc:mysql://localhost:3306/study02?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -117,7 +117,7 @@ eureka:
     #register-with-eureka: false
     #fetch-registry: false
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
 #      defaultZone: http://localhost:7001/eureka
   instance:
     #服务实例名称修改
