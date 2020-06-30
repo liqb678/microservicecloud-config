@@ -13,7 +13,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microsercicecloud-config-dept-client  #应用名称
+    name: microservicecloud-config-dept-client  #应用名称
   datasource:
     url: jdbc:mysql://localhost:3306/study01?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
     username: root
@@ -78,7 +78,7 @@ server:
 spring:
   profiles: test
   application:
-    name: microsercicecloud-config-dept-client  #应用名称
+    name: microservicecloud-config-dept-client  #应用名称
   datasource:
     url: jdbc:mysql://localhost:3306/study02?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
     username: root
